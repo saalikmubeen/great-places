@@ -1,12 +1,37 @@
 {
-  "name": "ReactNative-DeviceFeatures",
-  "displayName": "ReactNative-DeviceFeatures",
   "expo": {
-    "name": "ReactNative-DeviceFeatures",
-    "slug": "ReactNative-DeviceFeatures",
+    "name": "Great Places",
+    "slug": "great-places",
     "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/places.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#171717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.kilas.GreatPlacesCourse",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kilas.GreatPlacesCourse",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
+      },
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/places.png"
+    }
   }
 }
